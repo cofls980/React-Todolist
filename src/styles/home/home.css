@@ -1,0 +1,25 @@
+.homeContainer {
+    width: 100%;
+    background: whitesmoke;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+    /* z-index: 100; */
+}
+
+.homeItem {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    /* font-weight: 800; */
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    /* input {
+        border: none;
+        border-bottom: 1px solid #000;
+        width: 360px;
+    } */
+}
