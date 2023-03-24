@@ -8,7 +8,6 @@ const Home = () => {
     return (
         <>
             <Header inLoginPage={false}/>
-            <HeaderAppList />
         </>
     );
 };

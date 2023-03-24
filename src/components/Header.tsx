@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/common/header.css'
+import HeaderAppList from './HeaderAppList';
 import HeaderLogin from './HeaderLogin';
 
 interface HeaderProps {
@@ -24,6 +25,11 @@ const Header = ({inLoginPage}: HeaderProps) => {
                 </div>
             </div>
             <div className='empty'/>
+            {inLoginPage === true ? (
+                null
+            ) : (
+                <HeaderAppList />
+            )}
         </>
     );
 };

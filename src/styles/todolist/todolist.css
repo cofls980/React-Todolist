@@ -1,0 +1,48 @@
+.todoCreateWrapper {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+}
+
+.todoInputText {
+    width: 85%;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.todoCreateButton {
+    width: 3rem;
+    height: 2.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background: palegoldenrod;
+    cursor: pointer;
+}
+
+.todoListWrapper {
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0px 0.5px 4px rgb(234, 232, 234);
+}
+
+.todoItem {
+    padding: 1%;
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
+.todoItemDelete {
+    font-size: 1.4rem;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.emp {
+    height: 0.2rem;
+}
